@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#nav{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    background:rgba(0, 0, 0, 0.5)
+}
+
+#logo{
+    height: 70px;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+#icon{
+    width: 70%;
+    height: 70px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#icon ul{
+    list-style: none;
+    margin-left:  80px;
+}
+
+#icon ul li{
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    float: left;
+}
+
+#icon ul li a{
+    color: white;
+    text-decoration:none;
+    display: block;
+    position: relative;
+}
+
+#icon ul li a:hover{
+    color: red;
+}
+
+#logo h1{
+    float: left;
+    position: relative;
+    color: white;
+}
+
+#txt{
+    color: white;
+    text-align: center;
+    margin-top: 250px;   
+}
+
+#txt h1{
+    font-size: 70px;
+
+}
+
+#txt h5{
+    font-size: 20px;
+    
+}
+
+#txt h6{
+    font-size: 15px;
+    
+}
+
+#txt input[type = "button"]{
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    font-size: 15px;
+    color: white;
+}
+
+#txt input[type ="button" ]:hover{
+    color: black;
+    background-color: white;
+}
